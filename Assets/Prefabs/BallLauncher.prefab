@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3959328470874315045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3959328470874315047}
+  - component: {fileID: 3959328470874315046}
+  m_Layer: 0
+  m_Name: BallLauncher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3959328470874315047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3959328470874315045}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3959328470874315046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3959328470874315045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8981c326650631346b46708077d09a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorObject: {fileID: 0}
+  ballPrefab: {fileID: 7895604802545862219, guid: e880a85fb50c9c640bee68cc388f58d9, type: 3}
+  cursorAimLockTexture: {fileID: 2800000, guid: d8c76adc52e333742aeb99e4346ba694, type: 3}
+  cursorAimUnlockTexture: {fileID: 2800000, guid: 84bbc29b3fdb3564d9ce4c3fb79cc365, type: 3}
+  cursorPanTexture: {fileID: 2800000, guid: ac9ad99333c374c49bbbdba7a0f2f5ad, type: 3}
+  gaugeWindupSpeed: 1
+  launchForce: 2000
